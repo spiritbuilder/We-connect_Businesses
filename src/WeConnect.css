@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:  rgb(206, 221, 221);
+    margin: 0px;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Houses{
+    display: flex;
+    flex-direction: column;
+
+}
+.House{
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: grey 3px 2px 3px;
+    width: 95%;
+    margin-top:15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.picture{
+    float: left;
+    border-radius: 4px;
+    max-width: 25%;
+}
+.description{
+    display: flex;
+    margin-left:25px;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content:space-between;
+    
+   
+    
+}
+.grey{
+    color: grey;
+}
+.address{
+    font-size: x-small;    
+}
+.bold{
+    font-weight: bold;
+}
+.small{
+    font-size: small;
+}
+.smaller{
+    font-size: smaller;
+}
+
+.name{
+    font-size: larger;
+    
+}
+p{
+    font-size: small;
+}
+a{
+    background-color:  rgb(59, 91, 152);
+    color: white;
+    font-size: small;
+    width: 80px;
+    padding: 8px;
+    height:30px;
+    border-radius: 15px;
+    border:none;
+    text-decoration: none;
+
+}
+button{
+    background-color:  rgb(59, 91, 152);
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    width: 120px;
+    padding: 8px;
+    height:30px;
+    border-radius: 15px;
+    border:none;
+    text-decoration: none;
+    
+    
+
+}
+.links{
+   display: flex;
+    font-weight: bold;
+    
+    align-content: space-between;
+    
+    justify-content: space-between;
+    
+    
+}
+h2{
+    
+    margin: 0%;
+}
+@media only screen and (max-width: 450px) {
+    .House{
+        padding: 10px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin-top:15px;
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        position: relative;
+    }
+    button{
+        background-color:  rgb(59, 91, 152);
+        color: white;
+        font-size: small;
+        width: 120px;
+        padding: 8px;
+        height:30px;
+        border-radius: 15px;
+        border:none;
+        text-decoration: none;
+        position: absolute;
+        bottom: 4px;
+    
+    }
+    .small{
+        font-size: 12px;
+    }
+    .smaller{
+        font-size: x-small;
+    }
+    
+    .picture{
+        
+        border-radius: 4px;
+        max-width: 100%;
+        
+    }
+    .closeUp{
+        position: absolute;
+        left: 20px;
+        bottom: 45px;
+    }
+    h2{
+        margin: 0%;
+        margin-bottom: 10px;
+    }
+    
+    .head{
+        display: flex;
+        flex-flow: column;
+    }
+    .displayphoto{
+        width: 100%;
+        height: 150px;
+        
+        
+    }
+    
+    .description{
+        display: flex;
+        margin-left:10px;
+        margin-right: 10px;
+        flex-direction: column;
+        justify-content:space-between;
+    }
+    p{
+        text-align: justify;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+}
